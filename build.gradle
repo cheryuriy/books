@@ -1,0 +1,74 @@
+buildscript {
+	ext {
+		springBootVersion = '1.5.6.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'org.springframework.boot'
+
+
+//version = '0.0.1'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+    maven { url "http://repo.maven.apache.org/maven2" }
+}
+
+
+dependencies {
+	compile(group: 'org.springframework.boot', name: 'spring-boot-starter', version:'1.5.4.RELEASE') {
+		exclude(module: 'commons-logging')
+	}
+    compile group: 'org.springframework.security.oauth', name: 'spring-security-oauth2', version: '2.2.0.RELEASE'
+	compile group: 'org.springframework.security', name: 'spring-security-core', version:'4.2.3.RELEASE'
+	compile group: 'org.springframework.security', name: 'spring-security-jwt', version:'1.0.8.RELEASE'
+	compile group: 'org.springframework', name: 'spring-context', version:'4.3.9.RELEASE'
+	compile group: 'org.springframework', name: 'spring-beans', version:'4.3.9.RELEASE'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version:'2.8.8'
+	compile group: 'org.bitbucket.b_c', name: 'jose4j', version:'0.5.1'
+
+    runtime "org.liquibase:liquibase-core"
+    compile("org.springframework.boot:spring-boot-starter-data-jpa")
+    compile('org.postgresql:postgresql:9.4-1200-jdbc41'){
+        exclude module: 'slf4j-simple'
+        exclude group: 'org.slf4j'
+    }
+    compile ("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
+    compile files('libs/protobuf-java-3.3.0.jar')
+    compile 'com.googlecode.protobuf-java-format:protobuf-java-format:1.4'
+	compile 'org.springframework:spring-webmvc'
+
+    testCompile  'org.testng:testng:6.11'
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-tomcat', version:'1.5.4.RELEASE'
+    testCompile ('org.springframework.boot:spring-boot-starter-test'){
+		exclude(module: 'commons-logging')
+	}
+//_____________________
+    compile ('org.testng:testng:6.11')
+    compile ('org.springframework.boot:spring-boot-starter-test')
+            { exclude(module: 'commons-logging') }
+
+//For Tomcat {{{
+	//compile 'org.springframework.boot:spring-boot-starter-tomcat'
+//For Tomcat }}}
+
+//For Wildfly {{{
+	providedCompile 'javax.servlet:javax.servlet-api'
+//For Wildfly }}}
+}
+
+springBoot {mainClass = 'server.Start'}
+
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}

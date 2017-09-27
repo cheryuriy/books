@@ -1,0 +1,53 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="07" author="yuriy">
+        <preConditions onFail="CONTINUE">
+            <tableExists schemaName="public" tableName="books_authors"/>
+        </preConditions>
+        <insert tableName="books_authors">
+            <column name="author_id" valueNumeric="1"/>
+            <column name="book_id" valueNumeric="2"/>
+        </insert>
+        <insert tableName="books_authors">
+            <column name="author_id" valueNumeric="1"/>
+            <column name="book_id" valueNumeric="4"/>
+        </insert>
+        <insert tableName="books_authors">
+            <column name="author_id" valueNumeric="2"/>
+            <column name="book_id" valueNumeric="1"/>
+        </insert>
+        <insert tableName="books_authors">
+            <column name="author_id" valueNumeric="2"/>
+            <column name="book_id" valueNumeric="3"/>
+        </insert>
+        <insert tableName="books_authors">
+            <column name="author_id" valueNumeric="3"/>
+            <column name="book_id" valueNumeric="3"/>
+        </insert>
+        <insert tableName="books_authors">
+            <column name="author_id" valueNumeric="3"/>
+            <column name="book_id" valueNumeric="5"/>
+        </insert>
+        <insert tableName="books_authors">
+            <column name="author_id" valueNumeric="3"/>
+            <column name="book_id" valueNumeric="6"/>
+        </insert>
+        <insert tableName="books_authors">
+            <column name="author_id" valueNumeric="4"/>
+            <column name="book_id" valueNumeric="3"/>
+        </insert>
+        <insert tableName="books_authors">
+            <column name="author_id" valueNumeric="4"/>
+            <column name="book_id" valueNumeric="6"/>
+        </insert>
+        <insert tableName="books_authors">
+            <column name="author_id" valueNumeric="5"/>
+            <column name="book_id" valueNumeric="7"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

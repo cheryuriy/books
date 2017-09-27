@@ -1,0 +1,29 @@
+syntax = "proto3";
+package server.protobuf;
+
+option java_package = "server.protobuf";
+option java_outer_classname = "BookAuthorProtos";
+
+message BookProto {
+  int64 id = 1;  
+  string book = 2;
+  string date = 3;
+  string publisher =4;
+  repeated AuthorProto authors = 5;
+}
+
+message AuthorProto {
+  int64 id = 1;  
+  string firstName =2;
+  string lastName =3;
+  string date =4;
+  repeated BookProto books = 5;
+}
+
+message AuthorsProto {
+  repeated AuthorProto authors = 1;
+}
+
+message BooksProto {
+  repeated BookProto books = 1;
+}
