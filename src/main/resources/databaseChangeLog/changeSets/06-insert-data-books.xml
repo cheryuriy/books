@@ -1,0 +1,61 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+
+
+ <changeSet id="06" author="yuriy">
+     <preConditions onFail="CONTINUE">
+         <tableExists schemaName="public" tableName="book"/>
+     </preConditions>
+
+
+    <comment>Inserting Books</comment>
+    <insert tableName="book">
+      <column name="book_id" valueNumeric="1"/>
+        <column name="publisher" value="publisher_02_a_01"/>
+        <column name="book" value="book_01_a_03"/>
+        <column name="date" value="1999-10-31"/>
+    </insert>
+    <insert tableName="book">
+        <column name="book_id" valueNumeric="2"/>
+        <column name="publisher" value="publisher_03_a_01"/>
+        <column name="book" value="book_01_a_02"/>
+        <column name="date" value="1996-10-31"/>
+    </insert>
+    <insert tableName="book">
+      <column name="book_id" valueNumeric="3"/>
+        <column name="publisher" value="publisher_01_a_01"/>
+        <column name="book" value="book_01_a_01"/>
+        <column name="date" value="1993-10-31"/>
+    </insert>
+    <insert tableName="book">
+      <column name="book_id" valueNumeric="4"/>
+        <column name="publisher" value="publisher_06_a_01"/>
+        <column name="book" value="book_01_a_04"/>
+        <column name="date" value="1999-10-31"/>
+    </insert>
+    <insert tableName="book">
+      <column name="book_id" valueNumeric="5"/>
+        <column name="publisher" value="publisher_04_a_01"/>
+        <column name="book" value="book_01_a_05"/>
+        <column name="date" value="1990-10-31"/>
+    </insert>
+    <insert tableName="book">
+      <column name="book_id" valueNumeric="6"/>
+        <column name="publisher" value="publisher_07_a_01"/>
+        <column name="book" value="book_01_a_06"/>
+        <column name="date" value="2001-10-31"/>
+    </insert>
+    <insert tableName="book">
+      <column name="book_id" valueNumeric="7"/>
+        <column name="publisher" value="publisher_05_a_01"/>
+        <column name="book" value="book_01_a_07"/>
+        <column name="date" value="2003-10-31"/>
+    </insert>
+ </changeSet>
+
+</databaseChangeLog>

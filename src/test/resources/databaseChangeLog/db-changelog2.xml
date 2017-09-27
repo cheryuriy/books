@@ -1,0 +1,12 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <include file="changeSets/01-03-drop-schemas.xml" relativeToChangelogFile="true"/>
+    <include file="changeSets/04-create-books-and-author-schema.xml" relativeToChangelogFile="true"/>
+    <include file="changeSets/05-insert-data-authors.xml" relativeToChangelogFile="true"/>
+    <include file="changeSets/06-insert-data-books.xml" relativeToChangelogFile="true"/>
+    <include file="changeSets/07-insert-data-books_authors.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>
