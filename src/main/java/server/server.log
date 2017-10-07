@@ -1,0 +1,530 @@
+2017-10-01 10:54:49,317 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-10-01 10:54:51,348 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-10-01 10:54:51,629 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-10-01 10:54:51,629 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1251
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\Java_Plus\wildfly-10.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_131\jre
+	java.io.tmpdir = C:\Users\0D04~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_131\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\apache-maven-3.5.0\bin;C:\Gradle\gradle-4.0.1\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\JavaPlus\protobuf-3.3.0\Binary_Protobuf\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_131-b11
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_131
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.131-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = D:\Java_Plus\wildfly-10.1.0.Final
+	jboss.host.name = yuriych
+	jboss.modules.dir = D:\Java_Plus\wildfly-10.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = yuriych
+	jboss.qualified.host.name = yuriych
+	jboss.server.base.dir = D:\Java_Plus\wildfly-10.1.0.Final\standalone
+	jboss.server.config.dir = D:\Java_Plus\wildfly-10.1.0.Final\standalone\configuration
+	jboss.server.data.dir = D:\Java_Plus\wildfly-10.1.0.Final\standalone\data
+	jboss.server.deploy.dir = D:\Java_Plus\wildfly-10.1.0.Final\standalone\data\content
+	jboss.server.log.dir = D:\Java_Plus\wildfly-10.1.0.Final\standalone\log
+	jboss.server.name = yuriych
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\Java_Plus\wildfly-10.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:D:\Java_Plus\wildfly-10.1.0.Final\standalone\configuration/logging.properties
+	module.path = D:\Java_Plus\wildfly-10.1.0.Final\modules
+	org.jboss.boot.log.file = D:\Java_Plus\wildfly-10.1.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 8.1
+	os.version = 6.3
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_131\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = D:\Java_Plus\wildfly-10.1.0.Final\jboss-modules.jar -mp D:\Java_Plus\wildfly-10.1.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=D:\Java_Plus\wildfly-10.1.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1251
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp866
+	sun.stdout.encoding = cp866
+	user.country = RU
+	user.dir = D:\Java_Plus\wildfly-10.1.0.Final\bin
+	user.home = C:\Users\理磬
+	user.language = ru
+	user.name = 理磬
+	user.script = 
+	user.timezone = GMT+07:00
+	user.variant = 
+2017-10-01 10:54:51,629 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=D:\Java_Plus\wildfly-10.1.0.Final\standalone\log\server.log -Dlogging.configuration=file:D:\Java_Plus\wildfly-10.1.0.Final\standalone\configuration/logging.properties 
+2017-10-01 10:55:02,617 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-10-01 10:55:03,086 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.4.0.Final
+2017-10-01 10:55:03,117 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.4.0.Final
+2017-10-01 10:55:03,211 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-10-01 10:55:03,227 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2017-10-01 10:55:03,227 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-10-01 10:55:03,242 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-10-01 10:55:03,258 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-10-01 10:55:03,274 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-10-01 10:55:03,305 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2017-10-01 10:55:03,649 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-10-01 10:55:03,883 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2017-10-01 10:55:04,836 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-10-01 10:55:05,477 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-10-01 10:55:05,508 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-10-01 10:55:05,508 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2017-10-01 10:55:06,024 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-10-01 10:55:07,758 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.21.Final
+2017-10-01 10:55:08,805 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'D:\Java_Plus\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-10-01 10:55:09,680 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2017-10-01 10:55:09,680 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2017-10-01 10:55:12,352 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-10-01 10:55:12,649 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-10-01 10:55:12,649 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-10-01 10:55:12,680 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-10-01 10:55:15,399 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore D:\Java_Plus\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-10-01 10:55:15,446 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory D:\Java_Plus\wildfly-10.1.0.Final\standalone\deployments
+2017-10-01 10:55:19,042 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-10-01 10:55:19,324 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 67) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-01 10:55:19,324 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-01 10:55:19,324 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 67) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-01 10:55:19,339 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-01 10:55:19,339 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-01 10:55:19,339 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-10-01 10:55:19,824 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2017-10-01 10:55:23,283 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2017-10-01 10:55:23,767 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-10-01 10:55:23,767 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-10-01 10:55:23,767 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 36333ms - Started 331 of 577 services (393 services are lazy, passive or on-demand)
+2017-10-01 10:57:33,154 INFO  [org.jboss.as.repository] (External Management Request Threads -- 5) WFLYDR0001: Content added at location D:\Java_Plus\wildfly-10.1.0.Final\standalone\data\content\c2\81e9162b5acaa9ad1c057f7ec699773e0314b3\content
+2017-10-01 10:57:33,239 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "books.war" (runtime-name: "books.war")
+2017-10-01 10:57:46,095 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0059: Class Path entry lib/snakeyaml-1.13.jar in /D:/Java_Plus/wildfly-10.1.0.Final/bin/content/books.war/WEB-INF/lib/liquibase-core-3.5.3.jar  does not point to a valid jar for a Class-Path reference.
+2017-10-01 10:57:49,274 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2017-10-01 10:57:49,277 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2017-10-01 10:57:49,831 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2017-10-01 10:57:49,831 WARN  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0013: Deployment deployment "books.war" contains CDI annotations but no bean archive was not found. (No beans.xml nor class with bean defining annotations)
+2017-10-01 10:57:49,930 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = books.war_org.postgresql.Driver_9_4
+2017-10-01 10:57:50,247 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 69) 2 Spring WebApplicationInitializers detected on classpath
+2017-10-01 10:57:50,464 INFO  [stdout] (ServerService Thread Pool -- 69)           ..............Profile:    unit   ............
+2017-10-01 10:57:52,704 INFO  [stdout] (ServerService Thread Pool -- 69) 
+2017-10-01 10:57:52,704 INFO  [stdout] (ServerService Thread Pool -- 69)   .   ____          _            __ _ _
+2017-10-01 10:57:52,705 INFO  [stdout] (ServerService Thread Pool -- 69)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2017-10-01 10:57:52,706 INFO  [stdout] (ServerService Thread Pool -- 69) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2017-10-01 10:57:52,707 INFO  [stdout] (ServerService Thread Pool -- 69)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2017-10-01 10:57:52,708 INFO  [stdout] (ServerService Thread Pool -- 69)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2017-10-01 10:57:52,709 INFO  [stdout] (ServerService Thread Pool -- 69)  =========|_|==============|___/=/_/_/_/
+2017-10-01 10:57:52,713 INFO  [stdout] (ServerService Thread Pool -- 69)  :: Spring Boot ::        (v1.5.6.RELEASE)
+2017-10-01 10:57:52,715 INFO  [stdout] (ServerService Thread Pool -- 69) 
+2017-10-01 10:57:52,857 INFO  [server.Start] (ServerService Thread Pool -- 69) Starting Start on YuriyCh with PID 3284 (started by 理磬 in D:\Java_Plus\wildfly-10.1.0.Final\bin)
+2017-10-01 10:57:52,857 INFO  [server.Start] (ServerService Thread Pool -- 69) The following profiles are active: unit
+2017-10-01 10:57:52,950 INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] (ServerService Thread Pool -- 69) Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1459f7c7: startup date [Sun Oct 01 10:57:52 GMT+07:00 2017]; root of context hierarchy
+2017-10-01 10:57:56,508 INFO  [stdout] (ServerService Thread Pool -- 69) Contents: unit
+2017-10-01 10:57:56,608 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 69) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-01 10:57:57,070 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c0d424a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:57:57,140 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$d4bb0a84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:57:57,171 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:57:57,171 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@33384079' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:57:57,198 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$f98fad36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:57:57,225 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:57:57,305 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'security.oauth2.client-org.springframework.boot.autoconfigure.security.oauth2.OAuth2ClientProperties' of type [org.springframework.boot.autoconfigure.security.oauth2.OAuth2ClientProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:57:57,313 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'org.springframework.boot.autoconfigure.security.oauth2.OAuth2AutoConfiguration' of type [org.springframework.boot.autoconfigure.security.oauth2.OAuth2AutoConfiguration$$EnhancerBySpringCGLIB$$f356fe4a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:57:57,509 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'resourceServerProperties' of type [org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:57:57,541 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 69) Initializing Spring embedded WebApplicationContext
+2017-10-01 10:57:57,556 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 69) Root WebApplicationContext: initialization completed in 4607 ms
+2017-10-01 10:57:58,728 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 69) Mapping filter: 'simpleCORSFilter' to: [/*]
+2017-10-01 10:57:58,728 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 69) Mapping filter: 'errorPageFilter' to: [/*]
+2017-10-01 10:57:58,728 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 69) Mapping filter: 'metricsFilter' to: [/*]
+2017-10-01 10:57:58,728 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 69) Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-10-01 10:57:58,728 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 69) Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-10-01 10:57:58,744 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 69) Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-10-01 10:57:58,744 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 69) Mapping filter: 'requestContextFilter' to: [/*]
+2017-10-01 10:57:58,744 INFO  [org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean] (ServerService Thread Pool -- 69) Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-10-01 10:57:58,744 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 69) Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-10-01 10:57:58,744 INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean] (ServerService Thread Pool -- 69) Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-10-01 10:57:58,744 INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean] (ServerService Thread Pool -- 69) Mapping servlet: 'dispatcherServlet' to [/]
+2017-10-01 10:58:01,953 INFO  [liquibase] (ServerService Thread Pool -- 69) Successfully acquired change log lock
+2017-10-01 10:58:03,960 INFO  [liquibase] (ServerService Thread Pool -- 69) Reading from public.databasechangelog
+2017-10-01 10:58:03,978 INFO  [liquibase] (ServerService Thread Pool -- 69) Successfully released change log lock
+2017-10-01 10:58:04,114 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (ServerService Thread Pool -- 69) Using JTA UserTransaction: org.jboss.tm.usertx.client.ServerVMClientUserTransaction@69ee076
+2017-10-01 10:58:04,114 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (ServerService Thread Pool -- 69) Using JTA TransactionManager: com.arjuna.ats.jbossatx.jta.TransactionManagerDelegate@3acd7d
+2017-10-01 10:58:04,114 INFO  [org.springframework.transaction.jta.JtaTransactionManager] (ServerService Thread Pool -- 69) Using JTA TransactionSynchronizationRegistry: org.jboss.as.txn.service.internal.tsr.TransactionSynchronizationRegistryWrapper@3e62f490
+2017-10-01 10:58:04,295 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] (ServerService Thread Pool -- 69) Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-10-01 10:58:04,331 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 69) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-10-01 10:58:04,446 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 69) HHH000412: Hibernate Core {5.0.12.Final}
+2017-10-01 10:58:04,461 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 69) HHH000206: hibernate.properties not found
+2017-10-01 10:58:04,461 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 69) HHH000021: Bytecode provider name : javassist
+2017-10-01 10:58:04,531 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 69) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-10-01 10:58:04,700 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 69) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-10-01 10:58:05,140 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 69) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-10-01 10:58:05,140 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 69) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@22897292
+2017-10-01 10:58:05,499 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 69) HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2017-10-01 10:58:05,505 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 69) HHH90000014: Found use of deprecated [org.hibernate.id.SequenceGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2017-10-01 10:58:06,068 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 69) HHH000228: Running hbm2ddl schema update
+2017-10-01 10:58:06,099 INFO  [org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl] (ServerService Thread Pool -- 69) HHH000262: Table not found: author
+2017-10-01 10:58:06,141 INFO  [org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl] (ServerService Thread Pool -- 69) HHH000262: Table not found: book
+2017-10-01 10:58:06,188 INFO  [org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl] (ServerService Thread Pool -- 69) HHH000262: Table not found: books_authors
+2017-10-01 10:58:06,218 INFO  [org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl] (ServerService Thread Pool -- 69) HHH000262: Table not found: author
+2017-10-01 10:58:06,225 INFO  [org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl] (ServerService Thread Pool -- 69) HHH000262: Table not found: book
+2017-10-01 10:58:06,241 INFO  [org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl] (ServerService Thread Pool -- 69) HHH000262: Table not found: books_authors
+2017-10-01 10:58:06,241 INFO  [org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl] (ServerService Thread Pool -- 69) HHH000262: Table not found: author
+2017-10-01 10:58:06,256 INFO  [org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl] (ServerService Thread Pool -- 69) HHH000262: Table not found: book
+2017-10-01 10:58:06,272 INFO  [org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl] (ServerService Thread Pool -- 69) HHH000262: Table not found: books_authors
+2017-10-01 10:58:06,437 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] (ServerService Thread Pool -- 69) Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-10-01 10:58:08,044 INFO  [stdout] (ServerService Thread Pool -- 69)       ...................Tests are preparing.....................................        
+2017-10-01 10:58:08,103 INFO  [stdout] (ServerService Thread Pool -- 69) ..........................Tests are started .....................................
+2017-10-01 10:58:08,260 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] (ServerService Thread Pool -- 69) Neither @ContextConfiguration nor @ContextHierarchy found for test class [server.unit.Tests], using SpringBootContextLoader
+2017-10-01 10:58:08,277 INFO  [org.springframework.test.context.support.AbstractContextLoader] (ServerService Thread Pool -- 69) Could not detect default resource locations for test class [server.unit.Tests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-10-01 10:58:08,351 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] (ServerService Thread Pool -- 69) Found @SpringBootConfiguration server.Start for test class server.unit.Tests
+2017-10-01 10:58:08,351 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] (ServerService Thread Pool -- 69) Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5d57512f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@56bb053d, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6dba45e0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@26c047]
+2017-10-01 10:58:08,544 INFO  [stdout] (ServerService Thread Pool -- 69) 
+2017-10-01 10:58:08,544 INFO  [stdout] (ServerService Thread Pool -- 69)   .   ____          _            __ _ _
+2017-10-01 10:58:08,544 INFO  [stdout] (ServerService Thread Pool -- 69)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2017-10-01 10:58:08,560 INFO  [stdout] (ServerService Thread Pool -- 69) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2017-10-01 10:58:08,560 INFO  [stdout] (ServerService Thread Pool -- 69)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2017-10-01 10:58:08,560 INFO  [stdout] (ServerService Thread Pool -- 69)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2017-10-01 10:58:08,560 INFO  [stdout] (ServerService Thread Pool -- 69)  =========|_|==============|___/=/_/_/_/
+2017-10-01 10:58:08,560 INFO  [stdout] (ServerService Thread Pool -- 69)  :: Spring Boot ::        (v1.5.6.RELEASE)
+2017-10-01 10:58:08,560 INFO  [stdout] (ServerService Thread Pool -- 69) 
+2017-10-01 10:58:08,577 INFO  [server.unit.Tests] (ServerService Thread Pool -- 69) Starting Tests on YuriyCh with PID 3284 (started by 理磬 in D:\Java_Plus\wildfly-10.1.0.Final\bin)
+2017-10-01 10:58:08,579 INFO  [server.unit.Tests] (ServerService Thread Pool -- 69) The following profiles are active: unit
+2017-10-01 10:58:08,585 INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] (ServerService Thread Pool -- 69) Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@56b320d3: startup date [Sun Oct 01 10:58:08 GMT+07:00 2017]; root of context hierarchy
+2017-10-01 10:58:09,517 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 69) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-10-01 10:58:09,563 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c0d424a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:58:09,590 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$d4bb0a84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:58:09,595 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:58:09,601 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@66b50fb5' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:58:09,607 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$f98fad36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:58:09,612 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:58:09,638 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'security.oauth2.client-org.springframework.boot.autoconfigure.security.oauth2.OAuth2ClientProperties' of type [org.springframework.boot.autoconfigure.security.oauth2.OAuth2ClientProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:58:09,638 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'org.springframework.boot.autoconfigure.security.oauth2.OAuth2AutoConfiguration' of type [org.springframework.boot.autoconfigure.security.oauth2.OAuth2AutoConfiguration$$EnhancerBySpringCGLIB$$f356fe4a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:58:09,654 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 69) Bean 'resourceServerProperties' of type [org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-10-01 10:58:09,670 WARN  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] (ServerService Thread Pool -- 69) Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+2017-10-01 10:58:09,702 INFO  [org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer] (ServerService Thread Pool -- 69) 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-10-01 10:58:09,709 ERROR [org.springframework.boot.SpringApplication] (ServerService Thread Pool -- 69) Application startup failed: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:137)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextPrepareTestInstance(AbstractTestNGSpringContextTests.java:149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at server.unit.LoadTest.Start(LoadTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:151)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:131)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:86)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:169)
+	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:171)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:234)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:100)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getEmbeddedServletContainerFactory(EmbeddedWebApplicationContext.java:189)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:162)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:134)
+	... 81 more
+
+2017-10-01 10:58:09,734 ERROR [org.springframework.test.context.TestContextManager] (ServerService Thread Pool -- 69) Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6dba45e0] to prepare test instance [server.unit.Tests@30429e65]: java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextPrepareTestInstance(AbstractTestNGSpringContextTests.java:149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at server.unit.LoadTest.Start(LoadTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:151)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:131)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:86)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:169)
+	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:186)
+	at io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:171)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:234)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:100)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:137)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 73 more
+Caused by: org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getEmbeddedServletContainerFactory(EmbeddedWebApplicationContext.java:189)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:162)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:134)
+	... 81 more
+
+2017-10-01 10:58:09,964 INFO  [stdout] (ServerService Thread Pool -- 69) 
+2017-10-01 10:58:09,964 INFO  [stdout] (ServerService Thread Pool -- 69) ===============================================
+2017-10-01 10:58:09,964 INFO  [stdout] (ServerService Thread Pool -- 69) TmpSuite
+2017-10-01 10:58:09,964 INFO  [stdout] (ServerService Thread Pool -- 69) Total tests run: 5, Failures: 0, Skips: 5
+2017-10-01 10:58:09,964 INFO  [stdout] (ServerService Thread Pool -- 69) Configuration Failures: 1, Skips: 0
+2017-10-01 10:58:09,980 INFO  [stdout] (ServerService Thread Pool -- 69) ===============================================
+2017-10-01 10:58:09,981 INFO  [stdout] (ServerService Thread Pool -- 69) 
+2017-10-01 10:58:10,214 INFO  [stdout] (ServerService Thread Pool -- 69)          ......................Tests are finished .....................................       
+2017-10-01 10:58:10,306 WARN  [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter] (ServerService Thread Pool -- 69) Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2017-10-01 10:58:10,433 INFO  [org.springframework.security.oauth2.provider.endpoint.FrameworkEndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/oauth/authorize]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint.authorize(java.util.Map<java.lang.String, java.lang.Object>,java.util.Map<java.lang.String, java.lang.String>,org.springframework.web.bind.support.SessionStatus,java.security.Principal)
+2017-10-01 10:58:10,433 INFO  [org.springframework.security.oauth2.provider.endpoint.FrameworkEndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/oauth/authorize],methods=[POST],params=[user_oauth_approval]}" onto public org.springframework.web.servlet.View org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint.approveOrDeny(java.util.Map<java.lang.String, java.lang.String>,java.util.Map<java.lang.String, ?>,org.springframework.web.bind.support.SessionStatus,java.security.Principal)
+2017-10-01 10:58:10,449 INFO  [org.springframework.security.oauth2.provider.endpoint.FrameworkEndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/oauth/token],methods=[POST]}" onto public org.springframework.http.ResponseEntity<org.springframework.security.oauth2.common.OAuth2AccessToken> org.springframework.security.oauth2.provider.endpoint.TokenEndpoint.postAccessToken(java.security.Principal,java.util.Map<java.lang.String, java.lang.String>) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2017-10-01 10:58:10,449 INFO  [org.springframework.security.oauth2.provider.endpoint.FrameworkEndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/oauth/token],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.springframework.security.oauth2.common.OAuth2AccessToken> org.springframework.security.oauth2.provider.endpoint.TokenEndpoint.getAccessToken(java.security.Principal,java.util.Map<java.lang.String, java.lang.String>) throws org.springframework.web.HttpRequestMethodNotSupportedException
+2017-10-01 10:58:10,449 INFO  [org.springframework.security.oauth2.provider.endpoint.FrameworkEndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/oauth/check_token]}" onto public java.util.Map<java.lang.String, ?> org.springframework.security.oauth2.provider.endpoint.CheckTokenEndpoint.checkToken(java.lang.String)
+2017-10-01 10:58:10,449 INFO  [org.springframework.security.oauth2.provider.endpoint.FrameworkEndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/oauth/confirm_access]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.security.oauth2.provider.endpoint.WhitelabelApprovalEndpoint.getAccessConfirmation(java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+2017-10-01 10:58:10,449 INFO  [org.springframework.security.oauth2.provider.endpoint.FrameworkEndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/oauth/error]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.security.oauth2.provider.endpoint.WhitelabelErrorEndpoint.handleError(javax.servlet.http.HttpServletRequest)
+2017-10-01 10:58:10,465 INFO  [org.springframework.security.oauth2.provider.endpoint.FrameworkEndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/oauth/token_key],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> org.springframework.security.oauth2.provider.endpoint.TokenKeyEndpoint.getKey(java.security.Principal)
+2017-10-01 10:58:11,468 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 69) Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6dfd0637, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ef5a4f3, org.springframework.security.web.header.HeaderWriterFilter@19b15635, org.springframework.security.web.authentication.logout.LogoutFilter@680c520b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@20846954, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45b7c86a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53ffbe93, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@440e2e27, org.springframework.security.web.session.SessionManagementFilter@3402b3a8, org.springframework.security.web.access.ExceptionTranslationFilter@7cb4fff2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d004703]
+2017-10-01 10:58:11,505 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 69) Creating filter chain: server.oauth2Jwt.ResourceServerConfiguration$OAuthRequestedMatcher@61c5c77b, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12541e62, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d1d1ad, org.springframework.security.web.header.HeaderWriterFilter@e2ef1bc, org.springframework.security.web.authentication.logout.LogoutFilter@1ba62f40, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@61b52806, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c085a9c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25d2e3b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c3e913c, org.springframework.security.web.session.SessionManagementFilter@585cc2c8, org.springframework.security.web.access.ExceptionTranslationFilter@19d81b10, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5815fe6f]
+2017-10-01 10:58:11,515 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 69) Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c1c013d, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b68a73b, org.springframework.security.web.header.HeaderWriterFilter@659890f7, org.springframework.security.web.authentication.logout.LogoutFilter@66f590b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f3b2544, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e05157c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b473d8a, org.springframework.security.web.session.SessionManagementFilter@38381603, org.springframework.security.web.access.ExceptionTranslationFilter@3ec54042, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f99a102]
+2017-10-01 10:58:11,613 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/authors],methods=[PUT]}" onto public java.lang.Object server.controller.AuthorController.addAuthor(server.entities.Author)
+2017-10-01 10:58:11,614 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/authors/{id}],methods=[DELETE]}" onto public java.lang.Object server.controller.AuthorController.deleteById(java.lang.Long)
+2017-10-01 10:58:11,615 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/authors/{id}],methods=[GET]}" onto public java.lang.Object server.controller.AuthorController.getById(java.lang.Long)
+2017-10-01 10:58:11,618 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/authors],methods=[GET]}" onto public org.springframework.http.ResponseEntity<org.springframework.data.domain.Page<server.entities.Author>> server.controller.AuthorController.getAuthors(int,int,java.lang.String,java.lang.String)
+2017-10-01 10:58:11,619 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/authors/{Id}],methods=[POST]}" onto public java.lang.Object server.controller.AuthorController.changeById(java.lang.Long,server.entities.Author)
+2017-10-01 10:58:11,626 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/books/{id}],methods=[DELETE]}" onto public java.lang.Object server.controller.BookController.deleteById(java.lang.Long)
+2017-10-01 10:58:11,626 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/books/{id}],methods=[GET]}" onto public java.lang.Object server.controller.BookController.getById(java.lang.Long)
+2017-10-01 10:58:11,626 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/books/{Id}],methods=[POST]}" onto public java.lang.Object server.controller.BookController.changeById(java.lang.Long,server.entities.Book)
+2017-10-01 10:58:11,626 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/books],methods=[PUT]}" onto public java.lang.Object server.controller.BookController.addBook(server.entities.Book)
+2017-10-01 10:58:11,626 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/books],methods=[GET]}" onto public java.lang.Object server.controller.BookController.getBooks(int,int,java.lang.String,java.lang.String)
+2017-10-01 10:58:11,641 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/protobuf/authors/{id}],methods=[DELETE]}" onto public java.lang.Object server.controller.protoControllers.ProtoAuthorController.deleteById(java.lang.Long)
+2017-10-01 10:58:11,641 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/protobuf/authors],methods=[PUT]}" onto public java.lang.Object server.controller.protoControllers.ProtoAuthorController.PROaddAuthor(server.protobuf.BookAuthorProtos$AuthorProto)
+2017-10-01 10:58:11,641 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/protobuf/authors/{Id}],methods=[POST]}" onto public java.lang.Object server.controller.protoControllers.ProtoAuthorController.PROchangeById(java.lang.Long,server.protobuf.BookAuthorProtos$AuthorProto)
+2017-10-01 10:58:11,641 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/protobuf/authors],methods=[GET]}" onto public java.lang.Object server.controller.protoControllers.ProtoAuthorController.PROgetAuthors(int,int,java.lang.String,java.lang.String)
+2017-10-01 10:58:11,641 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/protobuf/authors/{id}],methods=[GET]}" onto public java.lang.Object server.controller.protoControllers.ProtoAuthorController.PROgetById(java.lang.Long)
+2017-10-01 10:58:11,641 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/protobuf/books/{id}],methods=[DELETE]}" onto public java.lang.Object server.controller.protoControllers.ProtoBookController.deleteById(java.lang.Long)
+2017-10-01 10:58:11,657 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/protobuf/books],methods=[PUT]}" onto public java.lang.Object server.controller.protoControllers.ProtoBookController.PROaddBook(server.protobuf.BookAuthorProtos$BookProto)
+2017-10-01 10:58:11,657 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/protobuf/books],methods=[GET]}" onto public java.lang.Object server.controller.protoControllers.ProtoBookController.PROgetBooks(int,int,java.lang.String,java.lang.String)
+2017-10-01 10:58:11,657 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/protobuf/books/{Id}],methods=[POST]}" onto public java.lang.Object server.controller.protoControllers.ProtoBookController.PROchangeById(java.lang.Long,server.protobuf.BookAuthorProtos$BookProto)
+2017-10-01 10:58:11,657 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/protobuf/books/{id}],methods=[GET]}" onto public java.lang.Object server.controller.protoControllers.ProtoBookController.PROgetById(java.lang.Long)
+2017-10-01 10:58:11,657 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/roles/principal],methods=[GET]}" onto public java.lang.Object server.controller.roles.getPrincipal()
+2017-10-01 10:58:11,657 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/roles/roles],methods=[GET]}" onto public java.lang.Object server.controller.roles.getRoles()
+2017-10-01 10:58:11,673 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/roles],methods=[GET]}" onto public java.lang.String server.controller.roles.helloResource()
+2017-10-01 10:58:11,673 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/roles/user],methods=[GET]}" onto public java.lang.String server.controller.roles.helloUser()
+2017-10-01 10:58:11,673 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/roles/client],methods=[GET]}" onto public java.lang.String server.controller.roles.helloClient()
+2017-10-01 10:58:11,673 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/roles/admin],methods=[GET]}" onto public java.lang.String server.controller.roles.helloAdmin()
+2017-10-01 10:58:11,673 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/roles/trusted_client],methods=[GET]}" onto public java.lang.String server.controller.roles.helloTrustedClient()
+2017-10-01 10:58:11,673 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/oauth/error]}" onto public java.lang.String server.controller.StartPage_Help.error()
+2017-10-01 10:58:11,673 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[],methods=[GET]}" onto public java.lang.Object server.controller.StartPage_Help.Help()
+2017-10-01 10:58:11,673 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/repeats],methods=[GET]}" onto public java.lang.String server.controller.StartPage_Help.repeats()
+2017-10-01 10:58:11,673 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/repeats],methods=[DELETE]}" onto public java.lang.String server.controller.StartPage_Help.repeatsDelete()
+2017-10-01 10:58:11,698 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-10-01 10:58:11,701 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-10-01 10:58:11,873 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 69) Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-01 10:58:28,362 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 69) Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-01 10:58:28,429 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (ServerService Thread Pool -- 69) Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-10-01 10:58:29,434 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-01 10:58:29,434 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-01 10:58:29,434 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-10-01 10:58:29,434 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-01 10:58:29,434 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-10-01 10:58:29,449 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-01 10:58:29,449 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-10-01 10:58:29,449 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-01 10:58:29,449 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/liquibase || /liquibase.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-01 10:58:29,465 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-01 10:58:29,465 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-01 10:58:29,465 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-10-01 10:58:29,465 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2017-10-01 10:58:29,465 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-01 10:58:29,465 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-10-01 10:58:29,481 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-01 10:58:29,488 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-10-01 10:58:29,490 INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-10-01 10:58:29,549 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 69) Creating filter chain: org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration$LazyEndpointPathRequestMatcher@ee025c0, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29e97c8c, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f430d61, org.springframework.security.web.header.HeaderWriterFilter@2ed0643f, org.springframework.web.filter.CorsFilter@1d7b3f21, org.springframework.security.web.authentication.logout.LogoutFilter@2930ff96, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@30540762, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f00e76b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@125c9d28, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9a79f69, org.springframework.security.web.session.SessionManagementFilter@56eda742, org.springframework.security.web.access.ExceptionTranslationFilter@5ab35614, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73b34a48]
+2017-10-01 10:58:30,321 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (ServerService Thread Pool -- 69) Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1459f7c7: startup date [Sun Oct 01 10:57:52 GMT+07:00 2017]; root of context hierarchy
+2017-10-01 10:58:31,761 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (ServerService Thread Pool -- 69) Registering beans for JMX exposure on startup
+2017-10-01 10:58:31,799 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 69) Registering beans for JMX exposure on startup
+2017-10-01 10:58:31,817 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 69) Starting beans in phase 0
+2017-10-01 10:58:31,823 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 69) Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2017-10-01 10:58:31,892 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 69) Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2017-10-01 10:58:31,916 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 69) Located managed bean 'liquibaseEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=liquibaseEndpoint]
+2017-10-01 10:58:31,930 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 69) Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2017-10-01 10:58:31,938 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 69) Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2017-10-01 10:58:31,943 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 69) Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2017-10-01 10:58:31,943 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 69) Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2017-10-01 10:58:31,959 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 69) Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2017-10-01 10:58:31,974 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 69) Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2017-10-01 10:58:31,974 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 69) Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2017-10-01 10:58:31,990 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 69) Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2017-10-01 10:58:31,990 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 69) Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2017-10-01 10:58:32,006 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 69) Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2017-10-01 10:58:32,059 INFO  [server.Start] (ServerService Thread Pool -- 69) Started Start in 41.595 seconds (JVM running for 224.782)
+2017-10-01 10:58:32,359 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 69) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/books'
+2017-10-01 10:58:39,907 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: /books
+2017-10-01 10:58:40,054 INFO  [org.jboss.as.server] (External Management Request Threads -- 5) WFLYSRV0010: Deployed "books.war" (runtime-name : "books.war")
+2017-10-01 10:58:54,534 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = books.war_org.postgresql.Driver_9_4
+2017-10-01 10:58:54,550 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0022: Unregistered web context: /books
+2017-10-01 10:58:54,566 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 84) Closing Spring root WebApplicationContext
+2017-10-01 10:58:54,566 INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] (ServerService Thread Pool -- 84) Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1459f7c7: startup date [Sun Oct 01 10:57:52 GMT+07:00 2017]; root of context hierarchy
+2017-10-01 10:58:54,566 INFO  [org.springframework.context.support.DefaultLifecycleProcessor] (ServerService Thread Pool -- 84) Stopping beans in phase 0
+2017-10-01 10:58:54,581 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 84) Unregistering JMX-exposed beans on shutdown
+2017-10-01 10:58:54,581 INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter] (ServerService Thread Pool -- 84) Unregistering JMX-exposed beans
+2017-10-01 10:58:54,581 INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] (ServerService Thread Pool -- 84) Unregistering JMX-exposed beans on shutdown
+2017-10-01 10:58:54,597 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] (ServerService Thread Pool -- 84) Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-10-01 10:58:55,034 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment books.war (runtime-name: books.war) in 514ms
+2017-10-01 10:58:55,081 INFO  [org.jboss.as.server] (External Management Request Threads -- 7) WFLYSRV0009: Undeployed "books.war" (runtime-name: "books.war")
+2017-10-01 10:58:55,113 INFO  [org.jboss.as.repository] (External Management Request Threads -- 7) WFLYDR0002: Content removed from location D:\Java_Plus\wildfly-10.1.0.Final\standalone\data\content\c2\81e9162b5acaa9ad1c057f7ec699773e0314b3\content
